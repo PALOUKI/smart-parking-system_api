@@ -66,10 +66,18 @@ Envoyez une requête POST pour enregistrer l'entrée d'un véhicule. Le système
 curl -X POST "http://localhost:8080/api/parking/entry?vehiculeNumber=AB-123-CD"
 ```
 
+### 2. Faire sortir un véhicule
+
 Envoyez une requête POST pour enregistrer la sortie d'un véhicule. Le système libère la place pour un autre vehicule.
 
 -   **Endpoint** : `POST /api/parking/exit`
 -   **Paramètre** : `vehiculeNumber` (plaque d'immatriculation)
+
+**Exemple avec `curl` :**
+```sh
+curl -X POST "http://localhost:8080/api/parking/exit?vehiculeNumber=AB-123-CD"
+```
+
 
 
 
