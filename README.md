@@ -35,7 +35,7 @@ Suivez ces étapes pour lancer le projet sur votre machine locale.
 
 1.  **Clonez le dépôt**
     ```sh
-    git clone [git@github.com:PALOUKI/smart-parking-system_api.git](https://github.com/PALOUKI/smart-parking-system_api.git)
+    git clone https://github.com/PALOUKI/smart-parking-system_api.git
     cd smart-parking-system
     ```
 
